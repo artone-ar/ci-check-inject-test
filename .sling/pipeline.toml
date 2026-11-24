@@ -1,3 +1,6 @@
-[queues.bench-ok]
-cmd = "echo bench-ok"
+version = 1
+
+[[queue]]
+name = "bench-ok"
 timeout_sec = 60
+steps = ["echo bench-ok"]
